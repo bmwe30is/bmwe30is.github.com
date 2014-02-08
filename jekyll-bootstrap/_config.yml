@@ -10,11 +10,10 @@ pygments: true
 #
 title : Jekyll Bootstrap
 tagline: Site Tagline
-author : Jonathan Chan
-  name : Jonathan Chan
-  email : jonthan.c.chan@gmail.com
-  github : bmwe30is
-
+name : Jonathan Chan
+mail : jonthan.c.chan@gmail.com
+github : bmwe30is
+twitter: na
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
