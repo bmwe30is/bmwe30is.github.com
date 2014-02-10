@@ -1,9 +1,9 @@
 
-http://username.github.io/archive.html
-http://username.github.io/atom.xml
-http://username.github.io/categories.html
-http://username.github.io/index.html
-http://username.github.io/pages.html
-http://username.github.io/rss.xml
-http://username.github.io/sitemap.txt
-http://username.github.io/tags.html
+http://bmwe30is.github.io/archive.html
+http://bmwe30is.github.io/atom.xml
+http://bmwe30is.github.io/categories.html
+http://bmwe30is.github.io/index.html
+http://bmwe30is.github.io/pages.html
+http://bmwe30is.github.io/rss.xml
+http://bmwe30is.github.io/sitemap.txt
+http://bmwe30is.github.io/tags.html

@@ -1,46 +1,30 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Introduction to Selenium Automated Testing
+tagline:
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+A comprehensive Selenum documentation and example blog.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+## A Brief Introduction to Selenium Testing
 
-## Update Author Attributes
+Selenium was created with the intention to automate UI browser testing. 
 
-In `_config.yml` remember to specify your own data:
+It contains support for Internet Explorer, Safari, Chrome, Firefox, and a multitude of other browsers. 
+
+I've combined Selenium, JUnit, Maven, and Jenkins to automate full UI testing of my company's UI.  The big picture has been 
+to implement automated tests within test suites to perform periodic regression tests of our UI.  
+
+The problem we're trying to address with automation is this: 
+
+- How do we test features and perform regression of a continously changing user interface with changing various back-end services?  
+
+The solution comes to us with scheduled periodic automated testing.  Selenium affords the ability to test multiple browsers and platforms simultaneously.
+
+The aim of this blog is to provide some insight into implementing and deploying a Selenium solution for your various testing needs. 
+
+I plan on introducing each piece of my solution as separate posts in this blog and include code samples that will hopefuly help you along your 
+automated test journey. 
     
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
 
