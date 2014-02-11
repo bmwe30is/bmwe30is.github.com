@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Introduction to Selenium Automated Testing</title>
+    <title>A Primer Into Selenium Automated Testing</title>
     
     <meta name="author" content="">
 
@@ -106,14 +106,14 @@
       <div class="content">
         
 <div class="page-header">
-  <h1>Introduction to Selenium Automated Testing </h1>
+  <h1>A Primer Into Selenium Automated Testing </h1>
 </div>
 
 <div class="row-fluid">
   <div class="span12">
     <p>A comprehensive Selenum documentation and example blog.</p>
 
-<h2 id="a_brief_introduction_to_selenium_testing">A Brief Introduction to Selenium Testing</h2>
+<h2 id="introduction_to_selenium_testing">Introduction to Selenium Testing</h2>
 
 <p>Selenium was created with the intention to automate UI browser testing.</p>
 
@@ -121,25 +121,41 @@
 
 <pre><code> http://docs.seleniumhq.org/</code></pre>
 
-<p>I’ve combined Selenium, JUnit, Maven, and Jenkins to automate full UI testing of my company’s UI. The big picture has been to implement automated tests within test suites to perform periodic regression tests of our UI.</p>
+<p>Challenges this blog will provide solutions for:</p>
+
+<ul>
+<li>How to test multiple browser sessions simultaneously</li>
+
+<li>How to test multiple platforms simultaneously</li>
+
+<li>How to report test results</li>
+
+<li>How to create a framework and test library that my coworkers can use</li>
+
+<li>How to implement basic “expected” functionality of an automated test suite</li>
+</ul>
 
 <h2 id="practical_application_of_seleniums_framework">Practical Application of Selenium’s Framework</h2>
 
-<p>The problem we’re trying to address with automation is:</p>
+<p>Selenium itself is a very powerful tool, containing very few moving pieces. However, the solution to automated UI testing does not solely rely on Selenium. Rather, it combines many tools and frameworks to create an automation orchestration.</p>
+
+<p>I plan on introducing each piece of my particular solution as separate posts in this blog and include code samples that will help you along your automated test journey.</p>
+
+<h2 id="depth_of_knowledge">Depth of Knowledge</h2>
+
+<p>In this blog, I will be covering the use of tools and frameworks that I have discovered in the short time that I have used Selenium. We will go over the basics of each tool and how it applies to Selenium.</p>
+
+<p>Some topics that will be discussed include:</p>
 
 <ul>
-<li>How do we test features and perform regression of a continously changing user interface with changing various back-end services?</li>
+<li>Maven project lifecycle (dependency management, test execution, and reporting)</li>
 
-<li>How do we provide reporting on test passes and test failues?</li>
+<li>JUnit (test running, test organization)</li>
 
-<li>How do we know the browser and UI state at time of failure?</li>
+<li>Intermediate Java programming</li>
 
-<li>How do we build up a robust testing solution that will grow with the application that’s being tested?</li>
+<li>Continuous build/integration systems</li>
 </ul>
-
-<p>The solution comes to us with scheduled periodic automated testing. Selenium affords the ability to test multiple browsers and platforms simultaneously. The aim of this blog is to provide some insight into implementing and deploying a Selenium solution for your various testing needs.</p>
-
-<p>I plan on introducing each piece of my solution as separate posts in this blog and include code samples that will hopefuly help you along your automated test journey.</p>
   </div>
 </div>
 
